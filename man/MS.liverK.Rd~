@@ -1,0 +1,54 @@
+\name{MS.liverK.plot}
+\alias{MS.liverK.plot}
+\title{
+plot the results of MS.liverK
+}
+\description{
+Given the results obtained with \code{liverCancerSbtypes()}, this function plots a segment plot and heatmaps representing the repartition and correspondance of classes.
+}
+\usage{
+MS.liverK.segmentplot(unsupClasses,reorder=T,refCol=1,col=NULL,cex.annot=1,addRowDelim=F,addBorder=F,addPval=F,PvalMethod=chisq.test,lwd=1,...)
+}
+
+\arguments{
+  \item{subtypes}{
+  unsup element from \code{liverCancerSbtypes()}
+}
+  \item{reorder}{
+  logical. Should the samples be reordered ?
+}
+  \item{refCol}{
+  if reorder = TRUE, refCol is the columns used as reference to reorder. Can be given either numeric or by name.
+}  \item{col}{
+  named vector containing the colors to use for each class. Names must contain each of \code{"A","B","S1","S2","S3","CTNNB1","Inflammation","Polysomy chr7","Proliferation","Unannotated","G1","G2","G3","G4","G5","G6".}
+}  \item{cex.annot}{
+  numeric. Size of the annotations
+}  \item{addRowDelim}{
+  logical. If TRUE, delimitors will be drawn between classifications.
+}  \item{addBorder}{
+  # item >> addBorder >> logical. If TRUE, a border will be drawn around the plot.
+}  \item{addPval}{
+  logical. If TRUE, a p-value is indicated for each classification. See \code{PvalMethod}.
+}  \item{PvalMethod}{
+  function. The test to be used to determine the p-value. Default is Chi squarred test.
+}  \item{lwd}{
+  numeric. Line width. Only used if \code{addRowDelim} or \code{addBorder} are TRUE. 
+}  \item{...}{
+  Additional parameters will be passed to \code{image} function.
+}
+
+# item >> addPval >> logical. If TRUE, a p-value is indicated for each classification. See PvalMethod.
+# item >> PvalMethod >> function. The test to be used to determine the p-value. Default is Chi squarred test.
+
+}
+
+\value{
+a segment plot
+}
+\author{
+F Petitprez
+}
+\note{
+This is a contribution from the Tumor Identity Cards (CIT) program founded by the 'Ligue Nationale Contre le Cancer' (France): \url{http://cit.ligue-cancer.net}. For any question please contact CITR@ligue-cancer.net
+}
+\keyword{ MS.liverK.plot }

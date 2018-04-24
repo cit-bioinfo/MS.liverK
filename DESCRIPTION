@@ -1,0 +1,12 @@
+Package: MS.liverK
+Type: Package
+Title: Subtyping of Liver Cancer Samples According to Various Unsupervised or Supervised Classifiers Based on Gene Expression Data
+Version: 1.0.0
+Date: 2018-04-10
+Author: Aurelien de Reynies, Florent Petitprez
+Maintainer:  Florent Petitprez <CITR@ligue-cancer.net>
+Description: Functions that return the molecular subtype of liver cancer samples according to several classifications. It reads genes expression data and runs classifiers to return the subtype described by several studies in liver cancer. This is a contribution from the Tumor Identity Cards (CIT) program founded by the Ligue Nationale Contre le Cancer (France).
+License: GPL
+Depends: R (>= 2.6.0), pamr, survival
+URL: http://cit.ligue-cancer.net
+

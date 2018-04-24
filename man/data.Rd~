@@ -1,0 +1,55 @@
+\name{data}
+\alias{data}
+\docType{data}
+\title{
+%%   ~~ data name/kind ... ~~
+}
+\description{
+%%  ~~ A concise (1-5 lines) description of the dataset. ~~
+}
+\usage{data("data")}
+\format{
+  A data frame with 65 observations on the following 26 variables.
+  \describe{
+    \item{\code{class}}{a numeric vector}
+    \item{\code{trainTEST}}{a factor with levels \code{predict} \code{training}}
+    \item{\samp{208875_s_at}}{a numeric vector}
+    \item{\samp{208724_s_at}}{a numeric vector}
+    \item{\samp{208650_s_at}}{a numeric vector}
+    \item{\samp{215253_s_at}}{a numeric vector}
+    \item{\samp{217521_at}}{a numeric vector}
+    \item{\samp{209619_at}}{a numeric vector}
+    \item{\samp{203021_at}}{a numeric vector}
+    \item{\samp{205977_s_at}}{a numeric vector}
+    \item{\samp{202350_s_at}}{a numeric vector}
+    \item{\samp{219733_s_at}}{a numeric vector}
+    \item{\samp{211989_at}}{a numeric vector}
+    \item{\samp{212117_at}}{a numeric vector}
+    \item{\samp{208228_s_at}}{a numeric vector}
+    \item{\samp{202894_at}}{a numeric vector}
+    \item{\samp{218974_at}}{a numeric vector}
+    \item{\samp{205963_s_at}}{a numeric vector}
+    \item{\samp{217932_at}}{a numeric vector}
+    \item{\samp{209478_at}}{a numeric vector}
+    \item{\samp{218146_at}}{a numeric vector}
+    \item{\samp{206539_s_at}}{a numeric vector}
+    \item{\samp{205208_at}}{a numeric vector}
+    \item{\samp{207874_s_at}}{a numeric vector}
+    \item{\samp{204231_s_at}}{a numeric vector}
+    \item{\samp{215807_s_at}}{a numeric vector}
+  }
+}
+\details{
+%%  ~~ If necessary, more details than the __description__ above ~~
+}
+\source{
+%%  ~~ reference to a publication or URL from which the data were obtained ~~
+}
+\references{
+%%  ~~ possibly secondary sources and usages ~~
+}
+\examples{
+data(data)
+## maybe str(data) ; plot(data) ...
+}
+\keyword{datasets}

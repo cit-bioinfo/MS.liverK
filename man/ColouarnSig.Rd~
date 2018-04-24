@@ -1,0 +1,33 @@
+\name{ColouarnSig}
+\alias{ColouarnSig}
+\docType{data}
+\title{
+Gene signatures from Coulouarn et al., Hepatology 2008
+}
+\description{
+Gene signatures from Coulouarn et al., Hepatology 2008
+}
+\usage{data("ColouarnSig")}
+\format{
+  A data frame with 249 observations on the following 5 variables.
+  \describe{
+    \item{\code{Gene.symbol}}{a factor with levels corresponding to gene symbols}
+    \item{\code{early}}{a numeric vector}
+    \item{\code{late}}{a numeric vector}
+    \item{\code{log2FC}}{a numeric vector}
+  }
+}
+\details{
+%%  ~~ If necessary, more details than the __description__ above ~~
+}
+\source{
+%%  ~~ reference to a publication or URL from which the data were obtained ~~
+}
+\references{
+%%  ~~ possibly secondary sources and usages ~~
+}
+\examples{
+data(ColouarnSig)
+## maybe str(ColouarnSig) ; plot(ColouarnSig) ...
+}
+\keyword{datasets}

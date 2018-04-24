@@ -1,0 +1,6 @@
+export("MS.liverK.subtypes","MS.liverK.plot","MS.liverK.discretize","MS.liverK.convert")
+import("pamr","survival")
+importFrom("grDevices", "colorRampPalette", "gray", "pdf", "rainbow")
+importFrom("graphics", "abline", "axis", "box", "image", "layout", "legend", "par", "plot", "strwidth")
+importFrom("stats", "as.dist", "as.formula", "chisq.test", "cor", "density", "dist", "mad", "median", "pchisq", "pt", "qnorm", "qt", "quantile", "var", "lm", "sd")
+importFrom("utils", "data", "read.csv")

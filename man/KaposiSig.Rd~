@@ -1,0 +1,31 @@
+\name{KaposiSig}
+\alias{KaposiSig}
+\docType{data}
+\title{
+%%   ~~ data name/kind ... ~~
+}
+\description{
+%%  ~~ A concise (1-5 lines) description of the dataset. ~~
+}
+\usage{data("KaposiSig")}
+\format{
+  A data frame with 24 observations on the following 2 variables.
+  \describe{
+    \item{\code{gene}}{a factor with levels \code{ALDH1A1} \code{ALDH6A1} \code{ANXA5} \code{ARPC1B} \code{CAP1} \code{CD63} \code{CKS2} \code{DENR} \code{EPHX1} \code{EPHX2} \code{FGD6} \code{GSTT1} \code{HIG2} \code{HMGA1} \code{ITGAV} \code{ITGB1} \code{KPNB1} \code{MAPK3} \code{MDFI} \code{NCK2} \code{PIK3R1} \code{PLCE1} \code{STK25} \code{TUBB6}}
+    \item{\code{type}}{a factor with levels \code{downInMet} \code{upInMet}}
+  }
+}
+\details{
+%%  ~~ If necessary, more details than the __description__ above ~~
+}
+\source{
+%%  ~~ reference to a publication or URL from which the data were obtained ~~
+}
+\references{
+%%  ~~ possibly secondary sources and usages ~~
+}
+\examples{
+data(KaposiSig)
+## maybe str(KaposiSig) ; plot(KaposiSig) ...
+}
+\keyword{datasets}
