@@ -97,8 +97,3 @@ The predictors used by MS.liverK have been optimized for data aquired using Affm
 ```{r, eval=FALSE}
 MS.liverK.convert(data)
 ```
-
-
-## Graphical output
-
-The two next pages present the graphical outputs obtained by the last two calls.
