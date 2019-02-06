@@ -10,7 +10,7 @@ Install from the GitHub repository using devtools:
 
     install.packages("devtools")
     library(devtools)
-    devtools::install_github("FPetitprez/MS.liverK")
+    devtools::install_github("cit-bioinfo/MS.liverK")
 
 Dependencies
 ========
