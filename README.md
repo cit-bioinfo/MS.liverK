@@ -16,6 +16,12 @@ Dependencies
 ========
 The R packages "pamr" and "survival" are required for this package to run properly.
 
+Dependencies
+========
+If you use MS.liverK in a scientific publication, please cite:
+
+Petitprez, F., Meunier, L., Letouze, E., Hoshida, Y., Villanueva, A., Llovet, J., Thorgeirsson, S., Wang, X.W., Fridman, W.H., Zucman-Rossi, J., et al. (2019). MS.liverK: an R package for transcriptome-based computation of molecular subtypes and functional signatures in liver cancer. BioRxiv 540005.
+
 License
 ========
 
