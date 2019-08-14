@@ -16,7 +16,7 @@ Dependencies
 ========
 The R packages "pamr" and "survival" are required for this package to run properly.
 
-Dependencies
+Citation
 ========
 If you use MS.liverK in a scientific publication, please cite:
 
