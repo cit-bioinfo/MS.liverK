@@ -1,0 +1,13 @@
+citHeader("To cite MS.liverK in publications, please use:")
+
+
+citEntry(entry = "manual",
+    title = "MS.liverK: an R package for transcriptome-based computation of molecular subtypes and functional signatures in liver cancer",
+    author = "Petitprez, Florent and Meunier, Lea and Letouze, Eric and Hoshida, Yujin and Villanueva, Augusto and Llovet, Josep and Thorgeirsson, Snorri and Wang, Xin Wei and Fridman, Wolf H and Zucman-Rossi, Jessica and de Reynies, Aurelien",
+    year = "2019",
+    url = "https://www.biorxiv.org/content/early/2019/02/07/540005",
+    textVersion  = paste("Petitprez, F. et al. (2013).",
+        "MS.liverK: an R package for transcriptome-based computation of molecular subtypes and functional signatures in liver cancer","https://www.biorxiv.org/content/early/2019/02/07/540005"),
+    doi = "10.1101/540005",
+    journal = "bioRxiv"
+)
